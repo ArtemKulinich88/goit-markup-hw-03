@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-
+    display: flex;
     margin: 0 auto;
     width: 1158px;
     padding-left: 15px;
@@ -42,6 +42,8 @@ img {
 
 .our {
     display: flex;
+    flex-direction: column;
+    display: inline-block;
 }
 
 .full-navigation {
@@ -49,6 +51,7 @@ img {
 .contact-list {
     display: flex;
     gap: 40px;
+    margin-left: 332px;
 }
 
 .mini-logo {
@@ -56,7 +59,6 @@ img {
 
 .contact {
     font-style: normal;
-    margin-left: auto;
 }
 
 .contact-button {
